@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C39F2A3E2E7C9EBA00E1C9F0 /* AccountTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F2A302E7C9EBA00E1C9F0 /* AccountTabViewController.swift */; };
+		C39F2A3F2E7C9EBA00E1C9F0 /* BrowseTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F2A312E7C9EBA00E1C9F0 /* BrowseTabViewController.swift */; };
+		C39F2A402E7C9EBA00E1C9F0 /* DiscoverTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F2A322E7C9EBA00E1C9F0 /* DiscoverTabViewController.swift */; };
+		C39F2A412E7C9EBA00E1C9F0 /* SearchTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F2A332E7C9EBA00E1C9F0 /* SearchTabViewController.swift */; };
+		C39F2A422E7C9EBA00E1C9F0 /* WWDCTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F2A342E7C9EBA00E1C9F0 /* WWDCTabViewController.swift */; };
+		C39F2A432E7C9EBA00E1C9F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F2A362E7C9EBA00E1C9F0 /* AppDelegate.swift */; };
+		C39F2A442E7C9EBA00E1C9F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F2A3B2E7C9EBA00E1C9F0 /* SceneDelegate.swift */; };
+		C39F2A452E7C9EBA00E1C9F0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F2A3C2E7C9EBA00E1C9F0 /* TabBarViewController.swift */; };
+		C39F2A462E7C9EBA00E1C9F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39F2A372E7C9EBA00E1C9F0 /* Assets.xcassets */; };
+		C39F2A482E7C9EBA00E1C9F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39F2A3A2E7C9EBA00E1C9F0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C39F2A032E7C94F500E1C9F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,27 +40,20 @@
 		C39F29EC2E7C94F300E1C9F0 /* DeveloperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeveloperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39F2A022E7C94F500E1C9F0 /* DeveloperAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeveloperAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39F2A0C2E7C94F500E1C9F0 /* DeveloperAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeveloperAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39F2A302E7C9EBA00E1C9F0 /* AccountTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTabViewController.swift; sourceTree = "<group>"; };
+		C39F2A312E7C9EBA00E1C9F0 /* BrowseTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseTabViewController.swift; sourceTree = "<group>"; };
+		C39F2A322E7C9EBA00E1C9F0 /* DiscoverTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTabViewController.swift; sourceTree = "<group>"; };
+		C39F2A332E7C9EBA00E1C9F0 /* SearchTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTabViewController.swift; sourceTree = "<group>"; };
+		C39F2A342E7C9EBA00E1C9F0 /* WWDCTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDCTabViewController.swift; sourceTree = "<group>"; };
+		C39F2A362E7C9EBA00E1C9F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C39F2A372E7C9EBA00E1C9F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C39F2A382E7C9EBA00E1C9F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39F2A392E7C9EBA00E1C9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C39F2A3B2E7C9EBA00E1C9F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C39F2A3C2E7C9EBA00E1C9F0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C39F2A142E7C94F500E1C9F0 /* Exceptions for "DeveloperApp" folder in "DeveloperApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = C39F29EB2E7C94F300E1C9F0 /* DeveloperApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C39F29EE2E7C94F300E1C9F0 /* DeveloperApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				C39F2A142E7C94F500E1C9F0 /* Exceptions for "DeveloperApp" folder in "DeveloperApp" target */,
-			);
-			path = DeveloperApp;
-			sourceTree = "<group>";
-		};
 		C39F2A052E7C94F500E1C9F0 /* DeveloperAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = DeveloperAppTests;
@@ -88,7 +94,7 @@
 		C39F29E32E7C94F300E1C9F0 = {
 			isa = PBXGroup;
 			children = (
-				C39F29EE2E7C94F300E1C9F0 /* DeveloperApp */,
+				C39F2A3D2E7C9EBA00E1C9F0 /* DeveloperApp */,
 				C39F2A052E7C94F500E1C9F0 /* DeveloperAppTests */,
 				C39F2A0F2E7C94F500E1C9F0 /* DeveloperAppUITests */,
 				C39F29ED2E7C94F300E1C9F0 /* Products */,
@@ -105,6 +111,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C39F2A352E7C9EBA00E1C9F0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C39F2A302E7C9EBA00E1C9F0 /* AccountTabViewController.swift */,
+				C39F2A312E7C9EBA00E1C9F0 /* BrowseTabViewController.swift */,
+				C39F2A322E7C9EBA00E1C9F0 /* DiscoverTabViewController.swift */,
+				C39F2A332E7C9EBA00E1C9F0 /* SearchTabViewController.swift */,
+				C39F2A342E7C9EBA00E1C9F0 /* WWDCTabViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C39F2A3D2E7C9EBA00E1C9F0 /* DeveloperApp */ = {
+			isa = PBXGroup;
+			children = (
+				C39F2A362E7C9EBA00E1C9F0 /* AppDelegate.swift */,
+				C39F2A3B2E7C9EBA00E1C9F0 /* SceneDelegate.swift */,
+				C39F2A3C2E7C9EBA00E1C9F0 /* TabBarViewController.swift */,
+				C39F2A352E7C9EBA00E1C9F0 /* Controllers */,
+				C39F2A372E7C9EBA00E1C9F0 /* Assets.xcassets */,
+				C39F2A382E7C9EBA00E1C9F0 /* Info.plist */,
+				C39F2A3A2E7C9EBA00E1C9F0 /* LaunchScreen.storyboard */,
+			);
+			path = DeveloperApp;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +151,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				C39F29EE2E7C94F300E1C9F0 /* DeveloperApp */,
 			);
 			name = DeveloperApp;
 			packageProductDependencies = (
@@ -225,6 +254,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39F2A462E7C9EBA00E1C9F0 /* Assets.xcassets in Resources */,
+				C39F2A482E7C9EBA00E1C9F0 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39F2A3E2E7C9EBA00E1C9F0 /* AccountTabViewController.swift in Sources */,
+				C39F2A3F2E7C9EBA00E1C9F0 /* BrowseTabViewController.swift in Sources */,
+				C39F2A402E7C9EBA00E1C9F0 /* DiscoverTabViewController.swift in Sources */,
+				C39F2A412E7C9EBA00E1C9F0 /* SearchTabViewController.swift in Sources */,
+				C39F2A422E7C9EBA00E1C9F0 /* WWDCTabViewController.swift in Sources */,
+				C39F2A432E7C9EBA00E1C9F0 /* AppDelegate.swift in Sources */,
+				C39F2A442E7C9EBA00E1C9F0 /* SceneDelegate.swift in Sources */,
+				C39F2A452E7C9EBA00E1C9F0 /* TabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +319,17 @@
 			targetProxy = C39F2A0D2E7C94F500E1C9F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C39F2A3A2E7C9EBA00E1C9F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C39F2A392E7C9EBA00E1C9F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C39F2A162E7C94F500E1C9F0 /* Debug */ = {
