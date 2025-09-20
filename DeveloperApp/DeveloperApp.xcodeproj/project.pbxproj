@@ -17,6 +17,8 @@
 		C39F2A452E7C9EBA00E1C9F0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F2A3C2E7C9EBA00E1C9F0 /* TabBarViewController.swift */; };
 		C39F2A462E7C9EBA00E1C9F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39F2A372E7C9EBA00E1C9F0 /* Assets.xcassets */; };
 		C39F2A482E7C9EBA00E1C9F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39F2A3A2E7C9EBA00E1C9F0 /* LaunchScreen.storyboard */; };
+		C39F2A4B2E7CA08300E1C9F0 /* AppleHLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F2A4A2E7CA08300E1C9F0 /* AppleHLS.swift */; };
+		C39F2A4E2E7CA6A200E1C9F0 /* WWDCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39F2A4D2E7CA6A200E1C9F0 /* WWDCTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C39F2A392E7C9EBA00E1C9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C39F2A3B2E7C9EBA00E1C9F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C39F2A3C2E7C9EBA00E1C9F0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C39F2A4A2E7CA08300E1C9F0 /* AppleHLS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleHLS.swift; sourceTree = "<group>"; };
+		C39F2A4D2E7CA6A200E1C9F0 /* WWDCTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDCTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -126,6 +130,8 @@
 		C39F2A3D2E7C9EBA00E1C9F0 /* DeveloperApp */ = {
 			isa = PBXGroup;
 			children = (
+				C39F2A4C2E7CA67300E1C9F0 /* Views */,
+				C39F2A492E7CA05D00E1C9F0 /* Model */,
 				C39F2A362E7C9EBA00E1C9F0 /* AppDelegate.swift */,
 				C39F2A3B2E7C9EBA00E1C9F0 /* SceneDelegate.swift */,
 				C39F2A3C2E7C9EBA00E1C9F0 /* TabBarViewController.swift */,
@@ -135,6 +141,22 @@
 				C39F2A3A2E7C9EBA00E1C9F0 /* LaunchScreen.storyboard */,
 			);
 			path = DeveloperApp;
+			sourceTree = "<group>";
+		};
+		C39F2A492E7CA05D00E1C9F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C39F2A4A2E7CA08300E1C9F0 /* AppleHLS.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C39F2A4C2E7CA67300E1C9F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C39F2A4D2E7CA6A200E1C9F0 /* WWDCTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,8 +305,10 @@
 				C39F2A3E2E7C9EBA00E1C9F0 /* AccountTabViewController.swift in Sources */,
 				C39F2A3F2E7C9EBA00E1C9F0 /* BrowseTabViewController.swift in Sources */,
 				C39F2A402E7C9EBA00E1C9F0 /* DiscoverTabViewController.swift in Sources */,
+				C39F2A4B2E7CA08300E1C9F0 /* AppleHLS.swift in Sources */,
 				C39F2A412E7C9EBA00E1C9F0 /* SearchTabViewController.swift in Sources */,
 				C39F2A422E7C9EBA00E1C9F0 /* WWDCTabViewController.swift in Sources */,
+				C39F2A4E2E7CA6A200E1C9F0 /* WWDCTableViewCell.swift in Sources */,
 				C39F2A432E7C9EBA00E1C9F0 /* AppDelegate.swift in Sources */,
 				C39F2A442E7C9EBA00E1C9F0 /* SceneDelegate.swift in Sources */,
 				C39F2A452E7C9EBA00E1C9F0 /* TabBarViewController.swift in Sources */,

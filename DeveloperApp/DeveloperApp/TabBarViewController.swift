@@ -11,8 +11,6 @@ class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        view.backgroundColor = .black
         let discoverTab = UINavigationController(rootViewController: DiscoverTabViewController())
         let browseTab = UINavigationController(rootViewController: BrowseTabViewController())
         let wwdcTab = UINavigationController(rootViewController: WWDCTabViewController())
@@ -33,6 +31,7 @@ class TabBarViewController: UITabBarController {
         
         setViewControllers([discoverTab, browseTab, wwdcTab, accountTab, searchTab], animated: true)
         
+        self.selectedIndex = 2 // wwdc
     }
 
 
