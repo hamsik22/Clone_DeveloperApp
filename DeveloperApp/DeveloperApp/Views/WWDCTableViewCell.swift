@@ -33,6 +33,7 @@ class WWDCTableViewCell: UITableViewCell {
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
+    var buttonTapped: (() -> Void)?
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -62,13 +63,18 @@ class WWDCTableViewCell: UITableViewCell {
             titleLabel.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -8)
         ])
     }
-    
-    func configure() {
-        thumbnailImage.image = UIImage(systemName: "photo")
-        titleLabel.text = "Testing \(Int.random(in: 1...10))"
-    }
-    
+        
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func configure() {
+        thumbnailImage.image = UIImage(systemName: "photo")
+        titleLabel.text = "Testing \(Int.random(in: 1...10))"
+        playButton.addTarget(self, action: #selector(playButtonTapped), for: .touchUpInside)
+    }
+    
+    @objc private func playButtonTapped() {
+        buttonTapped?()
     }
 }

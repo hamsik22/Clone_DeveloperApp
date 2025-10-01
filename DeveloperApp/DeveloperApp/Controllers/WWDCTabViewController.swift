@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVKit
 
 class WWDCTabViewController: UIViewController {
     
@@ -41,12 +42,19 @@ class WWDCTabViewController: UIViewController {
         contentsTable.delegate = self
         contentsTable.dataSource = self
     }
-    
 }
 
-extension WWDCTabViewController: UITableViewDataSource, UITableViewDelegate {
+extension WWDCTabViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return WWDCTableViewCell()
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: WWDCTableViewCell.identifier, for: indexPath) as? WWDCTableViewCell else { return UITableViewCell() }
+        cell.buttonTapped = {
+            let vc = AVPlayerViewController()
+            guard let url = URL(string: "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8") else { return }
+            let player = AVPlayer(url: url)
+            vc.player = player
+            self.present(vc, animated: true)
+        }
+        return cell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -55,6 +63,19 @@ extension WWDCTabViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         100
+    }
+}
+
+extension WWDCTabViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Selected Row : \(indexPath)")
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+}
+
+class SampleViewController: UIViewController {
+    override func viewDidLoad() {
+        view.backgroundColor = .blue
     }
 }
 
